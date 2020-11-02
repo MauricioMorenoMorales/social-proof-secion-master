@@ -1,0 +1,52 @@
+@import './_variables.sass'
+//* ############ CSS reset ############
+
+html
+	box-sizing: border-box
+	font-family: $font-family
+	scroll-behavior: smooth
+	font-size: 62.5%
+
+*,
+*:before,
+*:after
+	box-sizing: inherit
+
+body
+	margin: 0
+	height: auto
+
+img
+	max-width: 100%
+	height: auto
+
+.main__intro
+	width: 80%
+	margin: 100px auto 50px
+	color: $very-dark-magenta
+	text-align: center
+	h2
+		font-weight: $font-weight-bold
+		font-size: 2.5rem
+	p
+		font-size: $font-size
+
+.main__reviews
+	width: 80%
+	margin: 0 auto
+	color: $very-dark-magenta
+	.review
+		display: flex
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		background-color: $light-grayish-magenta
+		margin-bottom: 15px
+		border-radius: 8px
+		padding: 10px 0
+		img
+			margin: 0 3px
+		h5
+			font-weight: $font-weight-bold
+			font-size: 1.2rem
+			margin-bottom: 0
