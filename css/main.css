@@ -16,6 +16,10 @@ body {
   height: auto;
 }
 
+figure {
+  margin: 0;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -57,4 +61,37 @@ img {
   font-weight: 700;
   font-size: 1.2rem;
   margin-bottom: 0;
+}
+
+.main__comments {
+  width: 80%;
+  margin: 40px auto;
+}
+.main__comments .comment {
+  background-color: #502050;
+  color: #f7f2f7;
+  font-size: 1.5rem;
+  padding: 8%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.main__comments .comment .comment__perfil {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.main__comments .comment .comment__perfil h5 {
+  margin: 20px 0 0;
+  font-size: 1.5rem;
+}
+.main__comments .comment .comment__perfil h6 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #ee68a4;
+  font-weight: 400;
+}
+.main__comments .comment .comment__perfil img {
+  height: 50px;
+  margin-right: 25px;
+  border-radius: 50%;
 }
